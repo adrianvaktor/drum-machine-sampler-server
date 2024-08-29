@@ -1,0 +1,12 @@
+{
+    "build": {
+      "commands": [
+        "pip install -r requirements.txt"
+      ]
+    },
+    "deploy": {
+      "commands": [
+        "gunicorn app:app"
+      ]
+    }
+  }
